@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "outputDirectory": "dist/taxpal-angular",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
