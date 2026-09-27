@@ -4,17 +4,18 @@ The **TaxPal Backend** provides the REST APIs and server-side functionality for 
 
 ---
 
-✨ Backend Features
-🔐 User Registration & Login
-🔑 JWT-based Authentication
-💰 Transaction Management
-📊 Dashboard Summary & Analytics
-💵 Budget Management
-🏷️ Category Management
-🧮 Tax Estimation
-📄 Financial Report Generation
-🔔 Alerts Management
-🗄️ MySQL Database Integration using Sequelize
+## ✨ Backend Features
+
+- 🔐 User Registration & Login
+- 🔑 JWT-based Authentication
+- 💰 Transaction Management
+- 📊 Dashboard Summary & Analytics
+- 💵 Budget Management
+- 🏷️ Category Management
+- 🧮 Tax Estimation
+- 📄 Financial Report Generation
+- 🔔 Alerts Management
+- 🗄️ MySQL Database Integration using Sequelize
 
 ## 🛠️ Tech Stack
 
@@ -84,12 +85,19 @@ Server running on port 5000
 
 ## 📂 Project API Base URL & Endpoints
 
-Base URL:  http://localhost:5000/api
-Auth: /api/auth/register, /api/auth/login
-Transactions: /api/transactions
-Budgets: /api/budgets
-Categories: /api/categories
-Dashboard: /api/dashboard/summary, /api/dashboard/analytics
-Tax Estimate: /api/tax
-Reports: /api/reports/transactions, /api/reports/tax, /api/reports/dashboard
-Alerts: /api/alerts
+**Base URL:** `http://localhost:5000/api`
+
+| Endpoint | Description |
+|----------|-------------|
+| `/auth/register` | User Registration |
+| `/auth/login` | User Login |
+| `/transactions` | Transaction Management |
+| `/budgets` | Budget Management |
+| `/categories` | Category Management |
+| `/dashboard/summary` | Dashboard Summary |
+| `/dashboard/analytics` | Dashboard Analytics |
+| `/tax` | Tax Estimation |
+| `/reports/transactions` | Transaction Reports |
+| `/reports/tax` | Tax Reports |
+| `/reports/dashboard` | Dashboard Reports |
+| `/alerts` | Alerts Management |
