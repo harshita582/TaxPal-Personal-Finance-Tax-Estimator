@@ -6,8 +6,6 @@ TaxPal is a full-stack web application designed to help freelancers and gig work
 
 ## 🚀 Project Overview
 
-## 🚀 Project Overview
-
 The application brings multiple financial activities into a structured dashboard with a focus on simplifying day-to-day financial planning and record management.
 
 It combines automation, organized data management, and reporting to provide a more efficient approach to handling financial information.
